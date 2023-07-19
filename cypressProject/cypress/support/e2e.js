@@ -22,3 +22,4 @@ import './commands'
 beforeEach(function(){
     cy.log("I'm inside e2e.js")
 })
+

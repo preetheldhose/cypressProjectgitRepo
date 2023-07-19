@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "pretest": "echo I am PreTest",
+    "posttest": "echo I am PostTest",
     "test": "echo \"Error: no test specified\" && exit 1",
     "hello": "echo Hello World",
     "cy-test": "cypress run"
@@ -12,6 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.17.1"
+    "cypress": "^12.17.1",
+    "cypress-downloadfile": "^1.2.3"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
   }
 }
